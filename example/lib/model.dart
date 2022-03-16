@@ -1,7 +1,6 @@
 // example viewmodel for the form
 import 'dart:typed_data';
 
-import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_material_pickers/flutter_material_pickers.dart';
 
@@ -109,10 +108,4 @@ class ExampleModel {
 
   // Swatch Picker Model
   Color swatch = Colors.blue;
-
-  // File Picker Model
-  PlatformFile file = PlatformFile(
-      name: 'somefile.ext',
-      size: 1024 * 1024 * 15,
-      bytes: Uint8List(1024 * 1024 * 15));
 }

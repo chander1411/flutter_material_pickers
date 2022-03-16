@@ -6,11 +6,9 @@ library flutter_material_pickers;
 
 import 'package:flutter/cupertino.dart';
 
-export 'package:file_picker/file_picker.dart' show FileType;
 export 'package:flutter_material_pickers/helpers/show_checkbox_picker.dart';
 export 'package:flutter_material_pickers/helpers/show_color_picker.dart';
 export 'package:flutter_material_pickers/helpers/show_date_picker.dart';
-export 'package:flutter_material_pickers/helpers/show_file_picker.dart';
 export 'package:flutter_material_pickers/helpers/show_number_picker.dart';
 export 'package:flutter_material_pickers/helpers/show_palette_picker.dart';
 export 'package:flutter_material_pickers/helpers/show_radio_picker.dart';
